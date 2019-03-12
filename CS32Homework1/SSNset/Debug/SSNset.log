@@ -1,0 +1,5 @@
+﻿SSNSet.obj : error LNK2019: unresolved external symbol "public: __thiscall Set::Set(void)" (??0Set@@QAE@XZ) referenced in function "public: __thiscall SSNSet::SSNSet(void)" (??0SSNSet@@QAE@XZ)
+SSNSet.obj : error LNK2019: unresolved external symbol "public: int __thiscall Set::size(void)const " (?size@Set@@QBEHXZ) referenced in function "public: int __thiscall SSNSet::size(void)const " (?size@SSNSet@@QBEHXZ)
+SSNSet.obj : error LNK2019: unresolved external symbol "public: bool __thiscall Set::insert(unsigned long const &)" (?insert@Set@@QAE_NABK@Z) referenced in function "public: bool __thiscall SSNSet::add(unsigned long)" (?add@SSNSet@@QAE_NK@Z)
+SSNSet.obj : error LNK2019: unresolved external symbol "public: bool __thiscall Set::contains(unsigned long const &)const " (?contains@Set@@QBE_NABK@Z) referenced in function "public: bool __thiscall SSNSet::add(unsigned long)" (?add@SSNSet@@QAE_NK@Z)
+C:\Users\Administrator\source\repos\CS32Homework1\Debug\SSNset.exe : fatal error LNK1120: 4 unresolved externals

@@ -1,0 +1,4 @@
+﻿  tree.cpp
+c:\users\administrator\source\repos\cs32homework3\cs32homework3\tree.cpp(118): warning C4101: 'y': unreferenced local variable
+c:\users\administrator\source\repos\cs32homework3\cs32homework3\tree.cpp(117): warning C4101: 'x': unreferenced local variable
+  CS32Homework3.vcxproj -> C:\Users\Administrator\source\repos\CS32Homework3\Debug\CS32Homework3.exe

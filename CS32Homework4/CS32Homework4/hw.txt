@@ -1,0 +1,20 @@
+2.
+The call to Set<Coord>::insert causes at least one compilation error because the Set<Coord> sc is a set of a class of Coords. In the insert function, the program returns false if there is already the value present in the set. However, to do this the program uses the binary operator "==", but this is not defined in Coord, so there is no way to compare two Coords.
+
+3b. 
+You could not solve this problem because every time you iterate down through the menus, there is no way to keep track of the previous menus that the submenu came from because the function is a void function, so you can not put the file path in the output.
+
+4a.
+O(N^3), because there are three for loops nested in each other where the function takes N steps for each loop.
+
+4b.
+O(N^3), because even though a loop is replaced, that loop still takes N steps, and there are still 3 loops of N steps.
+
+5a. 
+O(N), because at worst, the function has to go through the whole entire Set, which takes N steps to go through it if there are N elements.
+
+5b.
+O(Nlog(N)), because the function takes N steps for each Set to add them to the vector v. The program also takes NlogN steps to sort the vector and then takes N steps to delete every node in *this. Finally since v is now has a maximum size of 2N, and inserting takes 2N, the program does 4N^2 steps.
+
+5c.
+O(N^2), because the function first iterates through set 1 and set 2 simultaneously with a while loop, so the steps taken was N + N. Then the function iterates through p2 in a for loop and inserts into *this, which has N elements, so the steps would be N^2.

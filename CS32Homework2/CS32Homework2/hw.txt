@@ -1,0 +1,36 @@
+Problem 2
+
+3, 5
+3, 6
+3, 4
+2, 4
+1, 4
+1, 3
+1, 2
+1, 1
+2, 1
+3, 3
+4, 5
+5, 5
+
+
+
+
+Problem 4
+
+3, 5
+4, 5
+3, 4
+3, 6
+5, 5
+3, 3
+2, 4
+6, 5
+5, 4
+1, 4
+7, 5
+5, 3
+
+
+
+The algorithms differ from each other in terms of which new discovered coordinate the algorithms choose to follow first. In the algorithm using stacks, the algorithm uses the last coordinate to be added to the stack, since stacks take off the last element first from the data structure. In the algorithm using a queue, the algorithm uses the first element added rather than the last.
